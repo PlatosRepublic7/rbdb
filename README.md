@@ -47,9 +47,9 @@ It’s a beginner-friendly demonstration for learning Rust in a project-driven m
 
 ## Features
 
-- **Enum-based queries:** Distinguish operations by creating a `QueryType` enum (`Insert`, `Select`, `Update`, `Delete`) to show idiomatic Rust patterns.
-- **Graceful error handling:** Return errors with `Result` and bubble them up, or handle them inline with `match` or `if let`.
-- **Optional values:** Demonstrate how to handle optional data with `Option<String>` for queries that sometimes have a value and sometimes don’t.
+- **Enum-based queries:** Distinguishs operations by creating a `QueryType` enum (`Insert`, `Select`, `Update`, `Delete`) to show idiomatic Rust patterns.
+- **Graceful error handling:** Returns errors with `Result` and bubble them up, or handle them inline with `match` or `if let`.
+- **Optional values:** Demonstrates how to handle optional data with `Option<String>` for queries that sometimes have a value and sometimes don’t.
 - **Interactive CLI:** The user can type commands repeatedly without restarting the program.
 - **Extensible design:** Add more command types (e.g., `CREATE`, `DROP`, etc.) by simply adding new enum variants.
 
@@ -59,7 +59,7 @@ It’s a beginner-friendly demonstration for learning Rust in a project-driven m
 
 1. **Clone** this repository:
    ```bash
-   git clone https://github.com/your-username/rbdb.git
+   git clone https://github.com/PlatosRepublic7/rbdb.git
    ```
 2. **Navigate** into the project directory:
    ```bash
